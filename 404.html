@@ -3,36 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Page Not Found - Error 404</title>
+<title>Error 404 - Page Not Found</title>
 <style>
     body {
+        margin: 0;
+        padding: 0;
         font-family: Arial, sans-serif;
         background-color: #000;
         color: #fff;
         text-align: center;
-        padding: 50px;
-    }
-
-    h1 {
-        font-size: 36px;
     }
 
     .bsod {
-        margin: 0 auto;
-        width: 600px;
-        background-color: #001F3F;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 20px #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .bsod img {
-        display: block;
-        margin: 0 auto;
-        width: 100px;
+        width: 200px;
+    }
+
+    .bsod h1 {
+        font-size: 36px;
     }
 
     .bsod p {
+        font-size: 18px;
         margin: 20px 0;
     }
 
@@ -41,9 +44,17 @@
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
+        color: #aaa;
     }
 </style>
 </head>
 <body>
     <div class="bsod">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABHUlEQVRYhe2W0Q2AIAyEkf4I+5uXtoBtQrUCs3A9/yD6Eej2AxXsfDmgUXOGH5bH5mEK0Tb3gI4dLxtgm2fSyw0VEIc8qjUL/Aw0R+Q6XgY9JzAqXNglIADTCEx/Y4jAKGdJnbCEqfqQWYbUm+oqTnCEqfKX5WmAqfiKYSSmgL0uS6oexVzQJeCQLZ6WnFQIoIQLf1UwZAwDArxIMiE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAaUlEQVRoge3ZsQkAAAgDQMeM8cES1TdIG8NGumPWMAVmsz//0JGSEhIcAPB/9L6DRU+LSkpKCQAfCHPj5zReMS1JgYEBwVFqZGMAH//9XFwi9UxCkZWVlDQAkDSUjFpccJpIUHhE8Jxh4eHACFQR4RL3D2M/PLYYt5pUkIgzx+2EwIxzXgAAAABJRU5ErkJggg==" alt="Windows 10 BSOD">
+        <h1>:(</h1>
+        <p>Error 404 - Page Not Found</p>
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+    </div>
+    <div class="footer">A problem has been detected and your page has been terminated to prevent damage to your device.</div>
+</body>
+</html>
