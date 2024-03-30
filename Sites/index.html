@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>#Sites</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sites</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('wallpaper.jpg'); /* Replace 'wallpaper.jpg' with the path to your wallpaper image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .file-manager {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    overflow-y: auto;
+  }
+
+  /* Style for file list */
+  .file-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Style for file list items */
+  .file-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Style for file list items on hover */
+  .file-list-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* Style for file list item icons */
+  .file-list-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+</style>
 </head>
 <body>
-    <h1>Sites : </h1>
-    <ul>
-        <li><a href="https://spgoldserverdata0.github.io/NewServerLIVE">ServerLIVE</a></li>
-        <li><a href="https://spgoldserverdata0.github.io/MyBESTDiscordServers">MY BEST DISCORD SERVERS</a></li>
-
+  <div class="file-manager">
+    <h2>Sites</h2>
+    <ul class="file-list">
+      <li class="file-list-item">
+        <img src="icons8-stream-48.png" alt="Folder"> <a href="https://spgoldserverdata0.github.io/NewServerLIVE">ServerLIVE</a>
+      </li>
+      <li class="file-list-item">
+        <img src="app.ico" alt="File"> <a href="https://spgoldserverdata0.github.io/MyBESTDiscordServers">My BEST Discord Servers</a>
+      </li>
+      <!-- Add more file list items as needed -->
     </ul>
+  </div>
 </body>
 </html>
